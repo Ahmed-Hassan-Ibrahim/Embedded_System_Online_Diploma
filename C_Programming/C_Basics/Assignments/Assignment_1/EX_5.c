@@ -17,7 +17,7 @@ int main(void) {
 	fflush(stdin); fflush(stdout);
 	scanf("%c", &input);
 
-	printf("ASCI value of %c: %d", input, input);
+	printf("ASCII value of %c: %d", input, input);
 
 	return EXIT_SUCCESS;
 }
