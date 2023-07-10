@@ -2,7 +2,7 @@
  ============================================================================
  Name        : Lab_3.c
  Author      : Ahmed Hassan Ibrahim
- Description : C Basics Lab 2 <<Calculate the minimum of two numbers>>
+ Description : C Basics Lab 3 <<Calculate the minimum of two numbers>>
  ============================================================================
  */
 

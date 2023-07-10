@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : Lab_1.c
+ Name        : Lab_2.c
  Author      : Ahmed Hassan Ibrahim
  Description : C Basics Lab 2 <<Comparing three numbers>>
  ============================================================================
