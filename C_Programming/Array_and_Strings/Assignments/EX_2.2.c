@@ -11,12 +11,18 @@
 int main(void) {
 
 	int i, n;
+	float arr[100], sum = 0;
 
 	printf("Enter the number of data: ");
 	fflush(stdin); fflush(stdout);
 	scanf("%d", &n);
 
-	float arr[n], sum = 0;
+	while(n > 100)
+	{
+		printf("Error! number should be less than 100, Enter another number: ");
+		fflush(stdin); fflush(stdout);
+		scanf("%d", &n);
+	}
 
 	for(i = 0; i < n; i++)
 	{
