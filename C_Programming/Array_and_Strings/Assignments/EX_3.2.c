@@ -2,7 +2,7 @@
  ============================================================================
  Name        : EX_3.2.c
  Author      : Ahmed Hassan Ibrahim
- Description : Array & Strings EX 3.2 (Find string lenght)
+ Description : Array & Strings EX 3.2 (Find string length)
  ============================================================================
  */
 
