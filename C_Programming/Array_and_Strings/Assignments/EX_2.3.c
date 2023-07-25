@@ -15,10 +15,9 @@ int main(void) {
 
 	printf("Enter row and column of matrix: ");
 	fflush(stdin); fflush(stdout);
-	scanf("%d",&row);
-	scanf("%d",&col);
+	scanf("%d%d",&row, &col);
 
-	int matrix[row][col], transpose[col][row];
+	int matrix[10][10], transpose[10][10];
 
 	printf("\nEnter elements of matrix: \n");
 	for(i = 0; i < row; i++)
