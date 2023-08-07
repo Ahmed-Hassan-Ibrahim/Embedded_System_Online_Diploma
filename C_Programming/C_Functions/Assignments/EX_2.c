@@ -12,13 +12,12 @@
 
 int fact(int x)
 {
-	int result = x;
 
 	if(x == 0 || x == 1)
 		return 1;
 
-	result *= fact(x-1);
-	return result;
+	x *= fact(x-1);
+	return x;
 }
 
 int main(void) {
