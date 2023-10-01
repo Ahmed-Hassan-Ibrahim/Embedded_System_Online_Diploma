@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "functional": "c",
+        "iterator": "c",
+        "random": "c"
+    }
+}
