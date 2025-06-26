@@ -42,9 +42,9 @@ int main(void)
 	while(1)
 	{
 		ODR_A->pin.pin13 = 1;				// Set PIN 13 in PORT A
-		for(int i = 0; i < 50000; i++){}	// Delay
+		for(int i = 0; i < 50000; i++){}		// Delay
 		ODR_A->pin.pin13 = 0;				// Clear PIN 13 in PORT A
-		for(int i = 0; i < 50000; i++){}	// Delay
+		for(int i = 0; i < 50000; i++){}		// Delay
 	}
 	return 0;
 }
