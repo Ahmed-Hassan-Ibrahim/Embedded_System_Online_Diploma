@@ -17,7 +17,7 @@
 #endif
 
 #ifndef TRUE
-#define TRUE		(boolean)true
+#define TRUE		  (boolean)true
 #endif
 
 #ifndef False
@@ -25,34 +25,34 @@
 #endif
 
 #ifndef True
-#define True		(boolean)true
+#define True		  (boolean)true
 #endif
 
-typedef _Bool				boolean;
+typedef _Bool				      boolean;
 
-typedef int8_t				sint8;
-typedef uint8_t				uint8;
-typedef char				char_t;
+typedef int8_t				    sint8;
+typedef uint8_t				    uint8;
+typedef char				      char_t;
 
-typedef int16_t				sint16;
-typedef uint16_t			uint16;
+typedef int16_t				    sint16;
+typedef uint16_t			    uint16;
 
-typedef int32_t				uint32;
-typedef uint32_t			uint32;
+typedef int32_t				    uint32;
+typedef uint32_t			    uint32;
 
-typedef int64_t				sint64;
-typedef uint64_t			uint64;
+typedef int64_t				    sint64;
+typedef uint64_t			    uint64;
 
-typedef uint_least8_t		uint8_least;
+typedef uint_least8_t		  uint8_least;
 typedef uint_least16_t		uint16_least;
 typedef uint_least32_t		uint32_least;
 
-typedef int_least8_t		sint8_least;
-typedef int_least16_t		sint16_least;
-typedef int_least32_t		sint32_least;
+typedef int_least8_t		  sint8_least;
+typedef int_least16_t		  sint16_least;
+typedef int_least32_t		  sint32_least;
 
-typedef float				float32;
-typedef double				float64;
+typedef float				      float32;
+typedef double				    float64;
 
 typedef volatile int8_t 	vint8_t;
 typedef volatile uint8_t	vuint8_t;
