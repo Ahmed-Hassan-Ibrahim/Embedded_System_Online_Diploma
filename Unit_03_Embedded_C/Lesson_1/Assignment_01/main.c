@@ -2,8 +2,8 @@
 #include <stdint.h>
 
 #define RCC_BASE 		0x40021000
-#define PORT_A_BASE 		0x40010800
-#define RCC_APB2ENR 		*(volatile uint32_t*) (RCC_BASE + 0x18)
+#define PORT_A_BASE 	0x40010800
+#define RCC_APB2ENR 	*(volatile uint32_t*) (RCC_BASE + 0x18)
 #define GPIO_A_CRH 		*(volatile uint32_t*) (PORT_A_BASE  + 0x4)
 
 typedef volatile unsigned int vint32_t;
@@ -42,9 +42,9 @@ int main(void)
 	while(1)
 	{
 		ODR_A->pin.pin13 = 1;				// Set PIN 13 in PORT A
-		for(int i = 0; i < 50000; i++){}		// Delay
+		for(int i = 0; i < 50000; i++){}	// Delay
 		ODR_A->pin.pin13 = 0;				// Clear PIN 13 in PORT A
-		for(int i = 0; i < 50000; i++){}		// Delay
+		for(int i = 0; i < 50000; i++){}	// Delay
 	}
 	return 0;
 }
