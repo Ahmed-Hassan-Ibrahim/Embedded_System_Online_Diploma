@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "QEMU ARM Debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "./learn-in-depth.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "external",  // Changed from "qemu"
+            "device": "arm926ej-s",
+            "gdbTarget": "localhost:1234",
+            "gdbPath": "C:/ARM/bin/arm-none-eabi-gdb.exe",
+            "armToolchainPath": "C:/ARM/bin/",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": true,
+            "postRestartCommands": [
+                "monitor reset halt",
+                "load",
+                "break main",
+                "continue"
+            ],
+            "svdFile": null
+        }
+    ]
+}
