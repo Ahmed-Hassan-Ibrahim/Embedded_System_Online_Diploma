@@ -23,7 +23,7 @@ typedef enum
 
 //APIs
 LIFO_Status_t LIFO_Init (LIFO_Buf_t* buffer, unsigned int* arr, unsigned int len);
-LIFO_Status_t LIFO_Add_Item (LIFO_Buf_t* buffer, unsigned int item);
-LIFO_Status_t LIFO_Get_Item (LIFO_Buf_t* buffer, unsigned int* item);
+LIFO_Status_t PUSH (LIFO_Buf_t* buffer, unsigned int item);
+LIFO_Status_t POP (LIFO_Buf_t* buffer, unsigned int* item);
 
 #endif

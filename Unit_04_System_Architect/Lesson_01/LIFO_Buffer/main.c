@@ -15,7 +15,7 @@ int main ()
 
     for(i = 0; i < 7; i++)
     {
-        if (LIFO_Add_Item(&UART_LIFO, i) == LIFO_Passed)
+        if (PUSH(&UART_LIFO, i) == LIFO_Passed)
             printf("UART_LIFO: %d pushed\n", i);
     }
 
@@ -23,7 +23,7 @@ int main ()
 
     for(i = 0; i < 7; i++)
     {
-        if (LIFO_Get_Item(&UART_LIFO, &temp) == LIFO_Passed)
+        if (POP(&UART_LIFO, &temp) == LIFO_Passed)
             printf("UART_LIFO: %d poped\n", temp);
     }
 
