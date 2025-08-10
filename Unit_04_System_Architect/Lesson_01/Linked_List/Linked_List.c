@@ -60,9 +60,13 @@ int Delete_Student()
                 // Selected node is not the first node
                 if (prev_node)
                     prev_node->next_stud = selected_node->next_stud;
-                // Selected node is the first node
-                else
+                // Selected node is the first node and the list contain multiple nodes
+                else if (selected_node->next_stud)
                     head->next_stud = selected_node->next_stud;
+
+                // Selected node is the first node and the list contain only 1 node
+                else
+                    head = NULL;
 
                 free(selected_node);
                 return 1;
